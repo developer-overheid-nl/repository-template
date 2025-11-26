@@ -11,7 +11,7 @@
 
 We nemen de beveiliging van onze software serieus. Als je denkt dat je een beveiligingskwetsbaarheid hebt gevonden, meld deze dan zoals hieronder beschreven.
 
-> **Meld beveiligingskwetsbaarheden niet via openbare GitHub issues.**
+> **Meld beveiligingskwetsbaarheden nooit via openbare GitHub issues.**
 
 ### Hoe te melden
 
