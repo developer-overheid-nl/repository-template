@@ -4,12 +4,14 @@ Deze repository bevat templates van files die elke repository tenminste nodig he
 - README.md
 - LICENCE.md
 - publiccode.yml
+- SECURITY.md
+- CONTRIBUTING.md
 
 
 Het doel van deze repository is om een developer te helpen zijn repository in te richten. De developer vult een lijstje met parameters in, waarna de files automatisch gegenereerd kunnen worden. Dit heeft twee grote voordelen:
 
-**Tijdswinst:** het duurt minder lang voor een developer om een repository correct in te richten.
-**Compleetheid:** er worden geen dingen vergeten die wel in een repo zouden moeten staan (zoals een SECURITY.MD)
+- **Tijdswinst:** het duurt minder lang voor een developer om een repository correct in te richten.
+- **Compleetheid:** er worden geen dingen vergeten die wel in een repo zouden moeten staan (zoals een SECURITY.MD)
 
 
 ## Templating
