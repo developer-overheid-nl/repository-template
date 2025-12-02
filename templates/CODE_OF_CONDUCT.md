@@ -1,4 +1,4 @@
-# Code of Conduct
+# Gedragscode
 
 Onze gedragscode in het Nederlands, internationaal bekend als 'Code of Conduct'.
 
@@ -28,25 +28,25 @@ identiteit en geaardheid.
 Voorbeelden van gedrag dat bijdraagt aan een positieve leefomgeving voor onze
 community omvatten:
 
-- Empathie tonen en vriendelijkheid tegenover andere mensen
-- Respect hebben voor verschillende meningen, standpunten en ervaringen
-- Constructieve feedback geven en vriendelijk accepteren
-- Verantwoordelijkheid aanvaarden en excuses aanbieden aan degenen die getroffen
-  zijn door onze fouten, en leren van de ervaring
-- Focussen op wat het beste is, niet alleen voor ons als individuen, maar ook
-  voor de algehele community
+- Empathie tonen en vriendelijkheid tegenover andere mensen.
+- Respect hebben voor verschillende meningen, standpunten en ervaringen.
+- Constructieve feedback geven en vriendelijk accepteren.
+- Verantwoordelijkheid aanvaarden en excuses aanbieden aan degenen die getroffen.
+  zijn door onze fouten, en leren van de ervaring.
+- Focussen op wat het beste is, niet alleen voor ons als individuen, maar ook.
+  voor de algehele community.
 
 Voorbeelden van onaanvaardbaar gedrag zijn:
 
 - Het gebruik van seksueel getinte taal of beelden en seksuele aandacht of
-  benadering
+  benadering.
 - Trollen, beledigende of denigrerende opmerkingen en persoonlijke of politieke
-  aanvallen
-- Publieke of private intimidatie
+  aanvallen.
+- Publieke of private intimidatie.
 - Het publiceren van de privégegevens van anderen, zoals een fysieke of e-mail
-  adres, zonder hun uitdrukkelijke toestemming
+  adres, zonder hun uitdrukkelijke toestemming.
 - Ander gedrag dat redelijkerwijs als ongepast kan worden beschouwd in een
-  professionele instelling
+  professionele instelling.
 
 ## Onze verantwoordelijkheden
 
