@@ -1,5 +1,6 @@
 {
     "recommendations": [
-        "dawhite.mustache"
+        "dawhite.mustache",
+        "esbenp.prettier-vscode"
     ]
 }
