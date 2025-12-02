@@ -71,6 +71,6 @@ maintenance:
 
   # Wie kan ik bereiken bij vragen?
   contacts:
-      {{#contacts}}
+      {{#contacten}}
         - {{.}}
-      {{/contacts}}
+      {{/contacten}}
