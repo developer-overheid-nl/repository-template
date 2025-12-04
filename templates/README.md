@@ -1,14 +1,11 @@
 # {{ projectTitel }}
 
-{{ korteBeschrijving }}
+{{ langeBeschrijving }}
 
 Ga naar [{{ landingURL }}]({{ landingURL }}) voor de productie omgeving.
 
-## Over dit project
-
-{{ langeBeschrijving }}
-
 ## Features
+Deze codebase bestaat uit de volgende features:
 
 {{#features}}
 - {{.}}
@@ -58,17 +55,15 @@ Dit project heeft de status: **{{ developmentStatus }}**
 
 Leuk dat je overweegt om bij te dragen in dit project. Lees onze [CONTRIBUTING.md](CONTRIBUTING.md) voor meer informatie over hoe je kunt bijdragen.
 
-### Code of Conduct
+### Gedragscode
 
-Dit project hanteert een [Code of Conduct](CODE_OF_CONDUCT.md). Door bij te dragen aan dit project ga je akkoord met de voorwaarden hiervan.
+Dit project hanteert een [gedragscode](CODE_OF_CONDUCT.md). Door bij te dragen aan dit project ga je akkoord met de voorwaarden hiervan.
 
 ## Security
 
-Heb je een beveiligingsprobleem gevonden? Meld dit dan zoals beschreven in [SECURITY.md](SECURITY.md).
+Heb je een potentieel securityissue gevonden? Fijn dat je de moeite hebt genomen om hier in te duiken. Hoe je op een veilige manier melding kan maken vind je in [SECURITY.md](SECURITY.md).
 
 ## Licentie
-
-Copyright © {{ opdrachtgever }}
 
 Licensed under the [EUPL-1.2](LICENCE.md)
 
@@ -80,5 +75,4 @@ Licensed under the [EUPL-1.2](LICENCE.md)
 
 ## Meer informatie
 
-- [CHANGELOG.md](CHANGELOG.md) - Zie alle wijzigingen per versie
 - [publiccode.yml](publiccode.yml) - Metadata volgens de publiccode.yml standaard
