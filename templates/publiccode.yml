@@ -76,4 +76,5 @@ maintenance:
       - name: {{ name }}
         email: {{ email }}
         affiliation: {{ affiliation }}
+        phone: {{ phone }}
       {{/contacten}}

@@ -70,7 +70,10 @@ Licensed under the [EUPL-1.2](LICENCE.md)
 ## Contact
 
 {{#contacten}}
-- {{.}}
+Naam: {{ name }}
+Email: {{ email }}
+Organisatie: {{ affiliation }}
+Telefoon: {{ phone }}
 {{/contacten}}
 
 ## Meer informatie
