@@ -7,6 +7,7 @@ publiccodeYmlVersion: "0.5"
 # Dit veld bevat de korte naam van het project. Kies hier de naam waaronder het
 # project bekend is bij de meeste mensen.
 name: {{ projectTitel }}
+
 # De url naar de source code.
 url: {{ gitUrl }}
 
