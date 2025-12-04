@@ -2,7 +2,7 @@
 
 {{ korteBeschrijving }}
 
-Ga naar [{{ landingUrl }}]({{ landingUrl }}) voor de productie omgeving.
+Ga naar [{{ landingURL }}]({{ landingURL }}) voor de productie omgeving.
 
 ## Over dit project
 
@@ -53,13 +53,6 @@ php artisan serve
 ## Ontwikkelstatus
 
 Dit project heeft de status: **{{ developmentStatus }}**
-
-## Platforms
-
-Deze applicatie is beschikbaar op:
-{{#platforms}}
-- {{.}}
-{{/platforms}}
 
 ## Bijdragen
 
