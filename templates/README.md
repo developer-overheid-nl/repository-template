@@ -2,7 +2,7 @@
 
 {{ langeBeschrijving }}
 
-Ga naar [{{ landingURL }}]({{ landingURL }}) voor de productie omgeving.
+Ga naar [{{ landingURL }}]({{ landingURL }}) voor meer informatie.
 
 ## Features
 Deze codebase bestaat uit de volgende features:
@@ -74,6 +74,7 @@ Naam: {{ name }}\
 Email: {{ email }}\
 Organisatie: {{ affiliation }}\
 Telefoon: {{ phone }}
+
 {{/contacten}}
 
 ## Meer informatie
