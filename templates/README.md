@@ -1,6 +1,6 @@
-# {{ projectTitel }}
+# {{ name }}
 
-{{ langeBeschrijving }}
+{{ longDescription }}
 
 Ga naar [{{ landingURL }}]({{ landingURL }}) voor meer informatie.
 
@@ -25,7 +25,7 @@ Deze codebase bestaat uit de volgende features:
 
 ```bash
 # Clone de repository
-git clone {{ gitUrl }}
+git clone {{ url }}
 cd project-directory
 
 # Installeer dependencies
@@ -69,13 +69,13 @@ Licensed under the [EUPL-1.2](LICENCE.md)
 
 ## Contact
 
-{{#contacten}}
+{{#contacts}}
 Naam: {{ name }}\
 Email: {{ email }}\
 Organisatie: {{ affiliation }}\
 Telefoon: {{ phone }}
 
-{{/contacten}}
+{{/contacts}}
 
 ## Meer informatie
 

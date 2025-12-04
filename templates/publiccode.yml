@@ -6,10 +6,10 @@ publiccodeYmlVersion: "0.5"
 
 # Dit veld bevat de korte naam van het project. Kies hier de naam waaronder het
 # project bekend is bij de meeste mensen.
-name: {{ projectTitel }}
+name: {{ name }}
 
 # De url naar de source code.
-url: {{ gitUrl }}
+url: {{ url }}
 
 # De url naar de productieomgeving van de software.
 landingURL: {{ landingUrl }} # optioneel
@@ -30,11 +30,11 @@ developmentStatus: {{ developmentStatus }}
 description:
   nl:
     longDescription: >
-      {{ langeBeschrijving }}
+      {{ longDescription }}
 
     # Mand!
     shortDescription:
-      {{ korteBeschrijving }}
+      {{ shortDescription }}
     features:
       {{#features}}
         - {{.}}
@@ -44,7 +44,7 @@ legal:
   # De licentie volgens de identifier van de SPDX standaard: https://spdx.org/licenses/
   license: EUPL-1.2
   # Wie is de eigenaar van de copyright op de code?
-  mainCopyrightOwner: {{ opdrachtgever }}
+  mainCopyrightOwner: {{ mainCopyrightOwner }}
 
 # Voor welk publiek is deze repository bedoeld?
 intendedAudience: # optioneel
@@ -72,9 +72,9 @@ maintenance:
 
   # Wie kan ik bereiken bij vragen?
   contacts:
-      {{#contacten}}
+      {{#contacts}}
       - name: {{ name }}
         email: {{ email }}
         affiliation: {{ affiliation }}
         phone: {{ phone }}
-      {{/contacten}}
+      {{/contacts}}

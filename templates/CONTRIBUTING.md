@@ -1,4 +1,4 @@
-# Bijdragen aan {{ projectTitel }}
+# Bijdragen aan {{ name }}
 
 Allereerst bedankt dat je wilt bijdragen aan dit project! Zonder jouw input
 wordt dit nooit een beter open source project.
@@ -44,7 +44,7 @@ Wil je code bijdragen? Volg dan onderstaand proces.
 ### 1. Fork en clone de repository
 
 ```bash
-git clone {{gitUrl}}
+git clone {{ url }}
 cd directory-name
 ```
 
@@ -239,5 +239,5 @@ Bijdragers worden vermeld in:
 
 Bedankt voor je bijdrage!
 
-_Dit project wordt onderhouden door {{ opdrachtgever }} en de open source
+_Dit project wordt onderhouden door {{ mainCopyrightOwner }} en de open source
 community._

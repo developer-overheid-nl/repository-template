@@ -1,6 +1,6 @@
 # Licence
 
-Copyright © {{ opdrachtgever}}.
+Copyright © {{ mainCopyrightOwner }}.
 Licensed under the EUPL.
 
 **Table of Contents**
