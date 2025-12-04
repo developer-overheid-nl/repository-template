@@ -73,5 +73,7 @@ maintenance:
   # Wie kan ik bereiken bij vragen?
   contacts:
       {{#contacten}}
-        - {{.}}
+      - name: {{ name }}
+        email: {{ email }}
+        affiliation: {{ affiliation }}
       {{/contacten}}
