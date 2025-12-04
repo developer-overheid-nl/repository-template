@@ -81,9 +81,9 @@ Licensed under the [EUPL-1.2](LICENCE.md)
 
 ## Contact
 
-{{#contacts}}
+{{#contacten}}
 - {{.}}
-{{/contacts}}
+{{/contacten}}
 
 ## Meer informatie
 
