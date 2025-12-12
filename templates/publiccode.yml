@@ -11,8 +11,10 @@ name: {{ name }}
 # De url naar de source code.
 url: {{ url }}
 
+{{#landingURL}}
 # De url naar de productieomgeving van de software.
-landingURL: {{ landingURL }} # optioneel
+landingURL: {{ landingURL }}
+{{/landingURL}}
 
 # Type software zoals te vinden op: https://yml.publiccode.tools/schema.core.html#key-softwaretype
 softwareType: {{ softwareType }}
@@ -68,13 +70,13 @@ maintenance:
   # Hoe is het onderhoud georganiseerd?
   # Doet een extern bedrijf het onderhoud? Kies dan: contract
   # Is het onderhoud intern belegd? Kies dan: internal
-  type: internal
+  type: {{maintenance}}
 
   # Wie kan ik bereiken bij vragen?
   contacts:
       {{#contacts}}
       - name: {{ name }}
-        email: {{ email }}
-        affiliation: {{ affiliation }}
-        phone: {{ phone }}
+        {{#email}}email: {{ email }}{{/email}}
+        {{#affiliation}}affiliation: {{ affiliation }}{{/affiliation}}
+        {{#phone}}phone: {{ phone }}{{/phone}}
       {{/contacts}}
