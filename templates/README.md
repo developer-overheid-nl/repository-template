@@ -73,11 +73,9 @@ Licensed under the [EUPL-1.2](LICENCE.md)
 Naam: {{ name }}\
 {{#email}}Email: {{ email }}\{{/email}}
 {{#affiliation}}Organisatie: {{ affiliation }}\{{/affiliation}}
-{{#phone}}Telefoon: {{ phone }}{{/phone}}
-
+{{#phone}}Telefoon: {{ phone }}\{{/phone}}
 
 {{/contacts}}
-
 ## Meer informatie
 
 - [publiccode.yml](publiccode.yml) - Metadata volgens de publiccode.yml standaard
