@@ -31,12 +31,14 @@ developmentStatus: {{ developmentStatus }}
 
 description:
   nl:
-    longDescription: >
-      {{ longDescription }}
-
-    # Mand!
+    # Mand! Maximaal 150 karakters
     shortDescription:
       {{ shortDescription }}
+    
+    # Minimaal 150 karakters, max 10000
+    longDescription: >
+      {{ longDescription }}
+    
     features:
       {{#features}}
         - {{.}}
