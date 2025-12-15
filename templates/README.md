@@ -65,6 +65,7 @@ Heb je een potentieel securityissue gevonden? Fijn dat je de moeite hebt genomen
 
 ## Licentie
 
+Copyright © {{ mainCopyrightOwner }}.
 Licensed under the [EUPL-1.2](LICENCE.md)
 
 ## Contact
