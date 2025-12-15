@@ -48,7 +48,8 @@ Dit project volgt de Responsible Disclosure richtlijnen van het NCSC (Nationaal 
 - We verzoeken je de kwetsbaarheid niet openbaar te maken totdat we deze hebben
   verholpen.
 - We stemmen het tijdschema voor openbaarmaking met je af.
-- We repareren zo snel mogelijk de kwetsbaarheid.
+- We repareren binnen het afgesproken tijdschema de kwetsbaarheid.
+- We koppelen naar je terug zodra het gat gedicht is. 
 
 ## Beveiligingsupdates
 
