@@ -36,22 +36,14 @@ Vermeld indien mogelijk de volgende informatie:
 
 ### Wat kun je verwachten
 
+Dit project volgt de CVD-leidraad (Coordinated Vulnerability Disclosure) van het NCSC. Dit betekent dat we een  gestructureerd proces hanteren voor het melden en afhandelen van beveiligingslekken.
+
 - Je ontvangt binnen 3 werkdagen een bevestiging van je melding.
 - We houden je op de hoogte van de voortgang van de oplossing.
-- We streven ernaar kritieke kwetsbaarheden binnen 90 dagen op te lossen.
+- We streven ernaar kritieke kwetsbaarheden binnen 5 werkdagen op te lossen.
 - We vermelden je in onze release notes (tenzij je liever anoniem blijft).
 
-### Responsible Disclosure
-
-Dit project volgt de Responsible Disclosure richtlijnen van het NCSC (Nationaal Cyber Security Centrum).
-
-- We verzoeken je de kwetsbaarheid niet openbaar te maken totdat we deze hebben
-  verholpen.
-- We stemmen het tijdschema voor openbaarmaking met je af.
-- We repareren binnen het afgesproken tijdschema de kwetsbaarheid.
-- We koppelen naar je terug zodra het gat gedicht is. 
-
-## Beveiligingsupdates
+## CHANGELOG.md
 
 Beveiligingsupdates worden uitgebracht als patch-versies en gedocumenteerd in
 onze [CHANGELOG.md](CHANGELOG.md).
