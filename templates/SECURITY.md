@@ -43,17 +43,12 @@ Vermeld indien mogelijk de volgende informatie:
 
 ### Responsible Disclosure
 
-Dit project volgt de
-[Responsible Disclosure richtlijnen](https://www.ncsc.nl/documenten/publicaties/2019/mei/01/cvd-leidraad)
-van het NCSC (Nationaal Cyber Security Centrum).
+Dit project volgt de Responsible Disclosure richtlijnen van het NCSC (Nationaal Cyber Security Centrum).
 
 - We verzoeken je de kwetsbaarheid niet openbaar te maken totdat we deze hebben
   verholpen.
 - We stemmen het tijdschema voor openbaarmaking met je af.
-- Voor coördinatie van kwetsbaarheden werken we samen met het NCSC en volgen we
-  het
-  [Coordinated Vulnerability Disclosure (CVD)](https://www.ncsc.nl/onderwerpen/coordinated-vulnerability-disclosure)
-  proces.
+- We repareren zo snel mogelijk de kwetsbaarheid.
 
 ## Beveiligingsupdates
 
