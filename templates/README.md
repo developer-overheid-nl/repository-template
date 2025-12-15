@@ -71,9 +71,10 @@ Licensed under the [EUPL-1.2](LICENCE.md)
 
 {{#contacts}}
 Naam: {{ name }}\
-Email: {{ email }}\
-Organisatie: {{ affiliation }}\
-Telefoon: {{ phone }}
+{{#email}}Email: {{ email }}\{{/email}}
+{{#affiliation}}Organisatie: {{ affiliation }}\{{/affiliation}}
+{{#phone}}Telefoon: {{ phone }}{{/phone}}
+
 
 {{/contacts}}
 
