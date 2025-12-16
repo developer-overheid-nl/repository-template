@@ -20,7 +20,7 @@ beschreven.
 
 ### Hoe te melden
 
-Stuur een e-mail naar: [developer.overheid@geonovum.nl](mailto:developer.overheid@geonovum.nl)
+Stuur een e-mail naar: [{{securityEmail}}]({{securityEmail}})
 
 Vermeld indien mogelijk de volgende informatie:
 
@@ -50,4 +50,4 @@ onze [CHANGELOG.md](CHANGELOG.md).
 
 ## Contact
 
-Voor vragen over dit beleid, neem contact op via: [developer.overheid@geonovum.nl](mailto:developer.overheid@geonovum.nl).
+Voor vragen over dit beleid, neem contact op via: [{{securityEmail}}](mailto:{{securityEmail}}).
