@@ -1,3 +1,17 @@
+---
+tags:
+  - "open-source"
+---
+
+# CODE_OF_CONDUCT.md
+
+Een gedragscode voeg je toe om vooraf duidelijk te maken welke omgangsvormen je
+verwacht. Het helpt bij het creëren van een respectvolle community en geeft
+houvast als er problemen ontstaan.
+
+Voorbeeld van [OSPO-NL](https://github.com/ospo-nl):
+
+```markdown showLineNumbers title="./CODE_OF_CONDUCT.md"
 # Gedragscode
 
 Onze gedragscode in het Nederlands, internationaal bekend als 'Code of Conduct'.
@@ -31,9 +45,9 @@ community omvatten:
 - Empathie tonen en vriendelijkheid tegenover andere mensen.
 - Respect hebben voor verschillende meningen, standpunten en ervaringen.
 - Constructieve feedback geven en vriendelijk accepteren.
-- Verantwoordelijkheid aanvaarden en excuses aanbieden aan degenen die getroffen.
+- Verantwoordelijkheid aanvaarden en excuses aanbieden aan degenen die getroffen
   zijn door onze fouten, en leren van de ervaring.
-- Focussen op wat het beste is, niet alleen voor ons als individuen, maar ook.
+- Focussen op wat het beste is, niet alleen voor ons als individuen, maar ook
   voor de algehele community.
 
 Voorbeelden van onaanvaardbaar gedrag zijn:
@@ -54,11 +68,13 @@ Projectbeheerders zijn verantwoordelijk voor het verduidelijken en handhaven van
 onze normen van acceptabel gedrag en zullen passende en eerlijke corrigerende
 maatregelen nemen op elk geval van onaanvaardbaar gedrag.
 
-Project maintainers hebben het recht en de verantwoordelijkheid om te
-verwijderen, te bewerken of af te wijzen elke opmerking, commits, code,
-wiki-bewerkingen, problemen en andere bijdragen die niet afgestemd op deze
-Gedragscode, of om tijdelijk of permanent bijdragen te weigeren van gedrag dat
-zij menen dat ongepast, bedreigend, beledigend of schadelijk is.
+Project maintainers hebben het recht en de verantwoordelijkheid om:
+
+- Opmerkingen, commits, code, wiki-bewerkingen, problemen en andere bijdragen te
+  verwijderen, te bewerken of af te wijzen die niet zijn afgestemd op deze
+  Gedragscode.
+- Bijdragen tijdelijk of permanent te weigeren van mensen die zich ongepast,
+  bedreigend, beledigend of schadelijk gedragen.
 
 ## Scope
 
@@ -73,13 +89,13 @@ online of offline evenement.
 
 Gevallen van beledigend, intimiderend of anderszins onaanvaardbaar gedrag kunnen
 worden gerapporteerd aan de gemeenschapsleiders die verantwoordelijk zijn voor
-handhaving via een [issue]({{ issueLink }}) met
-label `Bug`. Later volgen nog andere mogelijkheden. Alle klachten worden snel en
-eerlijk beoordeeld en onderzocht.
+handhaving. Alle klachten worden snel en eerlijk beoordeeld en onderzocht.
 
 Alle community leaders zijn verplicht om de privacy en veiligheid van de melder
 van elk incident te respecteren.
 
 ## Attribution
 
-Deze Code of Conduct is overgenomen van de kennisbank van [OSPO-NL](https://ospo-nl.github.io/kennisbank/community/CODE_OF_CONDUCT/).
+Deze Code of Conduct is overgenomen van de kennisbank van
+[OSPO-NL](https://ospo-nl.github.io/kennisbank/community/CODE_OF_CONDUCT/).
+```
