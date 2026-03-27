@@ -54,7 +54,7 @@ legal:
 intendedAudience: # optioneel
   # In welk land?
   countries:
-    - nl
+    - NL
   # En in welke sector?
   # De mogelijke tags vind je hier: https://yml.publiccode.tools/scope-list.html#scope-list
   scope:
