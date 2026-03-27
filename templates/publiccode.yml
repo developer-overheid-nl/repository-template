@@ -12,7 +12,7 @@ name: {{ name }}
 url: {{ url }}
 
 {{#landingURL}}
-# De url naar de productieomgeving van de software.
+# De url die gaat naar de website van het project
 landingURL: {{ landingURL }}
 {{/landingURL}}
 
