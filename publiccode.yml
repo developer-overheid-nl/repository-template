@@ -6,15 +6,15 @@ publiccodeYmlVersion: "0.5"
 
 # Dit veld bevat de korte naam van het project. Kies hier de naam waaronder het
 # project bekend is bij de meeste mensen.
-name: Repository templates
+name: Repository Templates
 # De url naar de source code.
-url: "https://github.com/developer-overheid-nl/don-site"
+url: "https://github.com/developer-overheid-nl/repository-template"
 
 # De url naar de productieomgeving van de software.
-landingURL: "https://developer.overheid.nl" # optioneel
+landingURL: "https://developer.overheid.nl"
 
 # Type software zoals te vinden op: https://yml.publiccode.tools/schema.core.html#key-softwaretype
-softwareType: standalone/web
+softwareType: configurationFiles
 
 # Vul hier in op welke platforms de gebruiker de applicatie uitendelijk gaat
 # gebruiken. Dus niet op welk platform de software zelf draait.
@@ -26,39 +26,44 @@ developmentStatus: beta
 
 description:
   nl:
-    longDescription: >
-      Developer Overheid NL is de wegwijzer voor developers die voor of bij de
-      overheid ontwikkelen. Zij vervult deze rol door het aanbieden van
-      standaarden, best practices en tools.
+    # Mand! Maximaal 150 karakters
+    shortDescription: >-
+      Templates voor bestanden die elke overheidsrepository nodig heeft, zoals
+      README, LICENCE, publiccode.yml, SECURITY en CONTRIBUTING.
 
-      Een belangrijke feature van het platform is de API catalogus. Deze maakt
-      inzichtelijk welke API's er beschikbaar zijn in het publieke landschap.
-      Tevens kan je hier per API de informatie vinden die je nodig hebt om met
-      de API aan de slag te gaan.
-       
-      Ook biedt het platform inzicht in welke open source software projecten er
-      beschikbaar zijn in het  publieke landschap. Per project krijgt de
-      gebruiker inzicht in de vitaliteit van de repository en andere waardevolle
-      datapunten.
+    # Minimaal 150 karakters, max 10000
+    longDescription: |
+      Deze repository bevat Mustache-templates van bestanden die elke
+      repository tenminste nodig heeft om correct gedocumenteerd te zijn.
+      Het gaat om templates voor README.md, LICENCE.md, publiccode.yml,
+      SECURITY.md en CONTRIBUTING.md.
 
-    # Mand!
-    shortDescription:
-      Developer Overheid NL is de wegwijzer voor developers die voor of bij de
-      overheid ontwikkelen.
+      Het doel van deze repository is om een developer te helpen zijn
+      repository in te richten. De developer vult een lijst met parameters
+      in, waarna de bestanden automatisch gegenereerd kunnen worden. Dit
+      heeft twee grote voordelen:
+
+      - Tijdswinst: het duurt minder lang voor een developer om een
+        repository correct in te richten.
+      - Compleetheid: er worden geen dingen vergeten die wel in een repo
+        zouden moeten staan, zoals een SECURITY.md.
 
     # Welke grote features heeft dit project?
     features:
-      - API Catalogus
-      - Repository Catalogus
+      - README template
+      - LICENCE template
+      - publiccode.yml template
+      - SECURITY.md template
+      - CONTRIBUTING.md template
 
 legal:
   # De licentie volgens de identifier van de SPDX standaard: https://spdx.org/licenses/
   license: EUPL-1.2
   # Wie is de eigenaar van de copyright op de code?
-  mainCopyrightOwner: Stichting Geonovum
+  mainCopyrightOwner: Geonovum
 
 # Voor welk publiek is deze repository bedoeld?
-intendedAudience: # optioneel
+intendedAudience:
   # In welk land?
   countries:
     - NL
@@ -71,7 +76,7 @@ localisation:
   # In welke talen is dit project beschikbaar?
   # Invullen volgens IETF BCP 47 standaard: https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
   availableLanguages:
-    - NL
+    - nl
   # Kunnen er meerdere talen geconfigureerd worden?
   localisationReady: false
 
@@ -89,4 +94,3 @@ maintenance:
     - name: Tom Ootes
       email: tom@ootes.io
       affiliation: Geonovum
-      phone: "+31623447230"
