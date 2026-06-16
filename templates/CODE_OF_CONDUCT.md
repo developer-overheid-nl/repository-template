@@ -1,8 +1,3 @@
----
-tags:
-  - "open-source"
----
-
 # CODE_OF_CONDUCT.md
 
 Een gedragscode voeg je toe om vooraf duidelijk te maken welke omgangsvormen je
