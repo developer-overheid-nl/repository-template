@@ -1,12 +1,3 @@
-# CODE_OF_CONDUCT.md
-
-Een gedragscode voeg je toe om vooraf duidelijk te maken welke omgangsvormen je
-verwacht. Het helpt bij het creëren van een respectvolle community en geeft
-houvast als er problemen ontstaan.
-
-Voorbeeld van [OSPO-NL](https://github.com/ospo-nl):
-
-```markdown showLineNumbers title="./CODE_OF_CONDUCT.md"
 # Gedragscode
 
 Onze gedragscode in het Nederlands, internationaal bekend als 'Code of Conduct'.
@@ -93,4 +84,3 @@ van elk incident te respecteren.
 
 Deze Code of Conduct is overgenomen van de kennisbank van
 [OSPO-NL](https://ospo-nl.github.io/kennisbank/community/CODE_OF_CONDUCT/).
-```
