@@ -1,4 +1,4 @@
-# Licence
+# License
 
 Copyright © {{ mainCopyrightOwner }}.
 Licensed under the EUPL.
