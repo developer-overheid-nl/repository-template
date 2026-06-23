@@ -1,4 +1,4 @@
-# Licence
+# License
 
 Copyright © Geonovum
 Licensed under the EUPL
