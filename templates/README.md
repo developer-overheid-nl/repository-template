@@ -2,7 +2,9 @@
 
 {{ longDescription }}
 
+{% if landingUrl %}
 Ga naar [{{ landingURL }}]({{ landingURL }}) voor meer informatie.
+{% endif %}
 
 ## Features
 Deze codebase bestaat uit de volgende features:
@@ -23,6 +25,8 @@ Deze codebase bestaat uit de volgende features:
 
 ### Installatie
 
+**PROJECTSPECIFIEK**: Voeg de vereisten voor jouw project toe, bijvoorbeeld:
+
 ```bash
 # Clone de repository
 git clone {{ url }}
@@ -37,6 +41,8 @@ composer install
 ```
 
 ### Lokaal draaien
+
+**PROJECTSPECIFIEK**: Voeg de vereisten voor jouw project toe, bijvoorbeeld:
 
 ```bash
 # Development server starten
@@ -53,7 +59,12 @@ Dit project heeft de status: **{{ developmentStatus }}**
 
 ## Bijdragen
 
-Leuk dat je overweegt om bij te dragen in dit project. Lees onze [CONTRIBUTING.md](CONTRIBUTING.md) voor meer informatie over hoe je kunt bijdragen.
+{% if welcomingContributions %}
+We verwelkomen bijdragen aan dit project! Bekijk [CONTRIBUTING.md](CONTRIBUTING.md) om te zien hoe je kunt helpen.
+{% else %}
+Dit project verwerkt op dit moment **geen externe bijdragen** (pull requests, patches of andere contributies).
+{% endif %}
+
 
 ### Gedragscode
 
